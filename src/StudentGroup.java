@@ -25,7 +25,14 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		System.out.println("Enter the number of students");
+		try {
+			if(students.length!=0)
+				return students;
+			
+		}
+		catch(IllegalArgumentException e)
+		{}
+		
 		return null;
 	}
 
