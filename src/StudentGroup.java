@@ -28,10 +28,11 @@ public class StudentGroup implements StudentArrayOperation {
 		try {
 			if(students.length!=0)
 				return students;
+			}
+		catch(IllegalArgumentException e)
+		{
 			
 		}
-		catch(IllegalArgumentException e)
-		{}
 		
 		return null;
 	}
@@ -98,15 +99,15 @@ public class StudentGroup implements StudentArrayOperation {
 	}
 
 	@Override
-	public void bubbleSort() {
-		for(int i=0;i<n;i++) {
-			for(int j=i+1;j<n;j++)
-			{
-				if(arr[j]>arr[j+1])
-					swap(&arr[j],&arr[j+1]);
-			}
-		}
-	}
+	//public void bubbleSort() {
+		//for(int i=0;i<n;i++) {
+			//for(int j=i+1;j<n;j++)
+			//{
+				//if(arr[j]>arr[j+1])
+					//swap(&arr[j],&arr[j+1]);
+			//}
+		//}
+	//}
 
 	@Override
 	public Student[] getByBirthDate(Date date) {
