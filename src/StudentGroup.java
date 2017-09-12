@@ -100,7 +100,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void bubbleSort() {
-		int n,i,j,temp=0;
+		/*int n,i,j,temp=0;
 		char arr[20];
 		for(int i=0;i<n;i++) {
 			for(int j=i+1;j<n;j++)
@@ -113,7 +113,7 @@ public class StudentGroup implements StudentArrayOperation {
 				
 			}
 		}
-	}
+	}*/
 	}
 	@Override
 	public Student[] getByBirthDate(Date date) {
