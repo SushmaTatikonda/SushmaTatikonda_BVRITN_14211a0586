@@ -39,7 +39,7 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void setStudents(Student[] students) {
-		System.out.println("The student details");
+	
 	}
 
 	@Override
